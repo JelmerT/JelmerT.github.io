@@ -1,0 +1,12 @@
+# Site settings
+title: Jelmer Tiete
+email: jelmer@tiete.be
+description: > # this means to ignore newlines until "baseurl:"
+  Jelmer Tiete his blog / site.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://jelmertiete.com" # the base hostname & protocol for your site
+twitter_username: jelmt
+github_username:  JelmerT
+
+# Build settings
+markdown: kramdown
