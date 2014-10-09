@@ -10,3 +10,7 @@ github_username:  JelmerT
 
 # Build settings
 markdown: kramdown
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
