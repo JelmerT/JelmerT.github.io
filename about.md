@@ -10,4 +10,4 @@ permalink: /about/
 
 
 
-Hi I'm Jelmer
+Hi I'm Jelmer, I'm an enthusiastic European, living in NYC.
