@@ -14,3 +14,6 @@ markdown: kramdown
 # Permalinks
 permalink:        pretty
 relative_permalinks: true
+
+# For previews in blog roll
+excerpt_separator: <!--more-->

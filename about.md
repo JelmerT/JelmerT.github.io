@@ -10,4 +10,5 @@ permalink: /about/
 
 
 
-Hi I'm Jelmer, I'm an enthusiastic European, living in NYC.
+Hi I'm Jelmer.  
+I'm a socialized nerd from Europe, living in NYC.

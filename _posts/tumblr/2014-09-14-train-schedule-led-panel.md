@@ -8,7 +8,7 @@ comments: True
 ---
 A while ago I made a train count-down LED display. It’s basically an LED panel that displays the next trains leaving (or arriving in) any Belgian train station.
 
-
+<!--more-->
 
 I had a couple of these RG Bicolor LED Dot Matrix Boards laying around. So after letting them collect some dust for a while, I bolted them together, paired them with a 5V PSU out of the recycle bin, and made a small PCB to hook them up to an FTDI board and arduino mini.
 The LED panel is based on the well documented HT1632c LED driver, so interfacing them with the arduino wasn’t that hard. The arduino is connected via the FTDI board over USB to a pc running a node.js script.

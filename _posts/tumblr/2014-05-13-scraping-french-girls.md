@@ -16,6 +16,7 @@ UPDATE 19 May 2014: It looks like the French Girls App started to use gzip compr
 
 
 French Girls is an iPhone app where strangers anonymously draw portraits based on “selfies” others have posted. Some of the drawings are hilarious, some of them disturbing, some of them extremely racist, and very few are actually really good. But that wasn’t what I was interested in.
+<!--more-->
 The app gives you a continuous stream of selfies and drawings posted by users. I was more interested in the back-end of this app and in particular how the app itself communicates with it. There’s no login or registration involved when using the app, so it would be interesting to see how they keep track of their users.
 
 First step is to install the app and have a look at the requests it makes and the traffic it generates. Wireshark seems like a good option here, but after some Googling I came out at Charles (another, more command line way, would be to use mitmproxy). This is an HTTP proxy that you can use to sniff web traffic. It can also sign it’s own SSL certificates, so it’s perfect to peek into the HTTPS calls the app makes. Charles is nagware, but you can use it for 30 mins at a time, which is enough for our purpose.

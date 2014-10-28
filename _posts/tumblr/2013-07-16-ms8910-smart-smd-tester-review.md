@@ -10,7 +10,7 @@ I just received the Mastech MS8910 smd tester and these are my first impression
 
 
 I got it from Aliexpress for 21.56$ including shipping, which seems like a good price for the product. Adafruit and Amazon are also carrying it, although for a slightly higher price.
-
+<!--more-->
 I already have a trusty larger Fluke that I usually use on my workbench, but this smaller meter seemed more convenient when measuring smaller parts like jellybeans coming out of the pick and place machine or components that are already reflowed on a board. It also seemed particularly convenient for checking the polarity and color of smd led’s.
  
 

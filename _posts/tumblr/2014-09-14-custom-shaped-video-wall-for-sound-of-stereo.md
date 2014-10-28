@@ -13,6 +13,9 @@ This is a project I finished a while ago (festival season 2012) but I never got 
 
 
 End 2011 Sound of Stereo, a Belgian dj-duo, approached me with an idea for the show of their next festival / club tour through Belgium / Europe. We started working out the idea together and ended up doing a great live-set tour. It involved a custom led-wall shaped like the Sound Of Stereo logo running video, perfectly synced to some great new songs.
+
+<!--more-->
+
 The basic set-up of the show consisted of: 2 dj’s, about 10 moving heads, some strobes, some conventional blinders and 3 custom shaped led walls on stands. The whole show was controlled by a GrandMA 2 and a video server running Madrix. Everything was synced and triggered by midi triggers programmed into the songs of the set playing on a Macbook on stage.
 
 

@@ -6,8 +6,8 @@ tags: []
 tumblr_url: http://jelm.be/post/85018928065/cc2538-development-board
 comments: True
 ---
-I recently designed and built a dev-board for the TI CC2538. It’s a nice little system-on-chip with an ARM Cortex M3, 2.4 GHz 802.15.4 radio and it runs at 32 MHz. Perfect for all your favourite Internet Of Things (IOT) shenanigans. Contiki supports this chip pretty well, which means easy 6LoWPAN, RPL and CoAP support.
-
+I recently designed and built a dev-board for the TI CC2538. It’s a nice little system-on-chip with an ARM Cortex M3, 2.4 GHz 802.15.4 radio and it runs at 32 MHz. Perfect for all your favorite Internet Of Things (IOT) shenanigans. Contiki supports this chip pretty well, which means easy 6LoWPAN, RPL and CoAP support.
+<!--more-->
 
 
 
