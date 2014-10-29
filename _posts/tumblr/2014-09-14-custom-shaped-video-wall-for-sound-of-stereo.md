@@ -8,7 +8,7 @@ comments: True
 ---
 This is a project I finished a while ago (festival season 2012) but I never got around to doing a proper write-up. (See end of post for the movies of the end result)
 
-![SoS Led Wall 2](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-2.jpg)
+![SoS Led Wall 2](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-2.jpg)([Dries Verachtert](https://www.flickr.com/photos/driesverachtert/7782690474))
 
 End 2011 Sound of Stereo, a Belgian dj-duo, approached me with an idea for the show of their next festival / club tour through Belgium / Europe. We started working out the idea together and ended up doing a great live-set tour. It involved a custom led-wall shaped like the Sound Of Stereo logo running video, perfectly synced to some great new songs.
 
@@ -18,7 +18,7 @@ End 2011 Sound of Stereo, a Belgian dj-duo, approached me with an idea for the 
 
 The basic set-up of the show consisted of: 2 dj’s, about 10 moving heads, some strobes, some conventional blinders and 3 custom shaped led walls on stands. The whole show was controlled by a GrandMA 2 and a video server running Madrix. Everything was synced and triggered by midi triggers programmed into the songs of the set playing on a Macbook on stage.
 
-![SoS Led Wall 2](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-3.png)
+![SoS Led Wall 3](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-3.png)
 
 Depending on the venue this set-up was of course accompanied by the local house lights or expanded with some more movers and blinders.
 The teaser from the live set gives a pretty good impression of what the set-up looked like.
@@ -26,17 +26,17 @@ The teaser from the live set gives a pretty good impression of what the set-up l
 Programming all the moving lights, blinders and strobes was fairly easy, getting a custom LED wall in the shape of the SOS logo, not so much.
 We played with the idea of integrating LEDs into the show to give it an extra dimension, but soon noticed that having a couple DMX controlled LED strips wasn’t going to cut it. The idea spun out of control and we ended up with plans for 3 individual 2 meter wide CNC’ed frames with about a thousand individually controllable RGB LEDs mounted on them in the shape of the logo for the tour.
 
-![SoS Led Wall 2](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-4.png)
+![SoS Led Wall 4](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-4.png)
 
 This plan allowed us to display video behind the dj’s during the show but not have it obstruct any other luminaires that originate even further back on stage, which creates a sense of depth that you usually lose when working with non transparent video walls on stage. The show was a live set, which means the dj’s could play any song at any time in any which way they wanted (there was a fixed set list though), but all the lighting effects and video still needed to be perfectly synced to the music. This meant that we needed full control over the whole set up at all times, which results in controlling every single pixel individually with the help of a video server.
 
 After drawing up all the plans and calculating all the constraints (Can we make this? Can we transport this? Can we move this on and off stage quickly enough? Can we control this? Can this be powered in every venue? Is the fps of the video high enough? …), we started of by ordering all the parts and CNCing the frames at our local fablab (FablabXL).
 
-![SoS Led Wall 2](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-5.jpg)
+![SoS Led Wall 5](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-5.jpg)
 
 For the LEDs themselves we needed individually controllable LED strips that we could easily cut to the correct size. We also needed full control of the exact RGB value for every LED, preferably over DMX, since we wanted to be able to program them together with all the other lighting effects. Sending an actual video signal, in some way, to the strips was also an option, but would become pretty complicated when doing the mapping in the video server.
 
-![SoS Led Wall 2](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-6.jpg)
+![SoS Led Wall 6](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-6.jpg)
 
 We opted for the LPD8806 since this chip offers actual 7-bit PWM for every channel, which means sort of good RGB control of every individual LED for video. The cheaper and more popular HL1606 chip at the time didn’t do any PWM, which would have resulted in pretty ugly video colors. The individual LEDs on these strips are about 3 cm apart which resulted in an acceptable pixel spacing.
 
@@ -55,44 +55,44 @@ After ordering some mbeds, I ported the Adafruit Arduino library for the LDP8806
 
 After a couple of late nights with wireshark by my side and way too many leds burning out my retinas every time I’d send the wrong packet, I got 3 separate controllers finished. Each letter of the logo was to get its own dedicated controller.
 
-![SoS Led Wall 2](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-7.jpg)
+![SoS Led Wall 7](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-7.jpg)
 
-![SoS Led Wall 2](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-8.jpg)
+![SoS Led Wall 8](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-8.jpg)
 
 Each controller consisted of the dedicated mbed and a beefy 5v supply to power that part of the LED wall. I opted for neutrik ethercon and powercon connectors, since these are strong, industry standard, and can be connected by any (less tech savvy) stage hand. Everything was mounted in a strong water-tight PVC case, with an extra copper mounting plate to dissipate any possible heat coming from the PSU (wasn’t really needed though).
 
 Next step was to mount all individual pieces of LED strip on the CNC’ed frame and solder everything together. Not the most fun job, but hey, you wanted a custom shaped LED wall …
 
-![SoS Led Wall 2](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-9.jpg)
+![SoS Led Wall 9](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-9.jpg)
 
-![SoS Led Wall 2](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-10.jpg)
+![SoS Led Wall 10](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-10.jpg)
 
-![SoS Led Wall 2](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-11.jpg)
+![SoS Led Wall 11](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-11.jpg)
 
 Some mounting points and extra black paint to touch up later we had a working custom LED display.
 
-![SoS Led Wall 2](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-12.png)
+![SoS Led Wall 12](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-12.png)
 
 Hauling all of this around to multiple clubs and outdoor festivals of course meant we needed a/multiple proper flight case(s). At this point we were kind of running out of time, so the case was just made out of plywood instead of decent durable wood. But it worked for the whole duration of the tour. As inserts for the cases I used simple styrofoam with CNC’ed cut outs for all the stuff that needed to fit.
 
-![SoS Led Wall 2](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-13.jpg)
+![SoS Led Wall 13](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-13.jpg)
 
-![SoS Led Wall 2](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-14.jpg)
+![SoS Led Wall 14](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-14.jpg)
 
-![SoS Led Wall 2](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-15.jpg)
+![SoS Led Wall 15](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-15.jpg)
 
-![SoS Led Wall 2](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-16.jpg)
+![SoS Led Wall 16](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-16.jpg)
 
 The flight-case has different levels, with in each level a different letter and all its cables, controller, and brackets. This was the easiest way to transport the three quite big and weirdly shaped frames.
 
 After all the hardware was done and working came the next step: programming the actual one hour long show. 
 
-![SoS Led Wall 2](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-17.jpg)
+![SoS Led Wall 17](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-17.jpg)
 
 We spent a couple of weekends repeating every song in the live set over and over, and tweaking every cue until it was just right.
 The control setup looked something like this:
 
-![SoS Led Wall 2](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-18.jpg)
+![SoS Led Wall 18](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-18.jpg)
 
 Yes, that is probably the worst schematic I’ve ever drawn, but it got the message across. (to the house light techs and stage hands)
 On stage we had the three letters with each their dedicated controller, these were connected to a gigabit switch with UTP. There was also an Art-Net to DMX converter connected to the same switch. One single UTP cable runs all the way to the FOH where I had the GrandMA2 and the Madrix server running on a Macbook Pro (running windows :( ). Both were connected to the FOH-switch. From the MIDI output of the Dj’s laptop (the one that actually plays the music) I had an extra twisted pair all the way to the GrandMA2.
@@ -109,11 +109,11 @@ Since this project was so custom, it doesn’t make much sense to post any of th
 
 Big thank you to Vincent, Jochen and everyone else making the tour a success!
 
-![SoS Led Wall 2](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-19.jpg)
+![SoS Led Wall 19](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-19.jpg)
 
-![SoS Led Wall 2](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-20.jpg)
+![SoS Led Wall 20](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-20.jpg)
 
-![SoS Led Wall 2](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-21.jpg)
+![SoS Led Wall 21](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-21.jpg)
 
 Some more movies of the end result:
 
