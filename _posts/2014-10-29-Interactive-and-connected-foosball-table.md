@@ -18,7 +18,7 @@ Around October 2013 I helped out [beyond.io](http://beyond.io) with their intera
 
 Video by [evilminions.be](http://www.evilminions.be/)
 
-This project, sponsored by a big Belgian beer brand (PALM), consisted of around 20 interactive foosball tables being placed at several Belgian youth houses. Every foosball table is Internet connected and keeps scores of each game that's being played. As a team of foosball players, you can compete, via this table, in a national foosball table championship. Every player gets an RFID key chain to identify her or himself to the table, and system, before every game. On the online portal you can then check your live scores and see where you and your team is placed in the ranking. The winning team goes home with a lot of free beer.
+This project, sponsored by a big Belgian beer brand (PALM), consisted of around 20 interactive foosball tables being placed at several Belgian youth houses. Every foosball table is Internet connected and keeps scores of each game that's being played. As a team of foosball players, you can compete, via this table, in a local foosball table championship. Every player gets an RFID key chain to identify her or himself to the table, and system, before every game. On the online portal you can then check your live scores and see where you and your team is placed in the ranking. The winning team goes home with a lot of free beer of course.
 
 The table itself has some nice features like LED lighting of the playing field, dual LED matrix displays for feedback, big arcade style back-lit buttons for the users to push (read: punch) on, and even some strobe lights underneath the table used for key moments in the game.
 
