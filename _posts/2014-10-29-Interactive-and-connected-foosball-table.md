@@ -50,7 +50,7 @@ After flashing and testing each individual board, we set up a small local produc
 
 Once all the back-end code was working, all tables were deployed to their individual locations. Everything seemed to work as planned, except for that single odd connector we forgot to hot-glue down off course. These tables get a pretty thorough vibration test by their players once the game starts heating up!
 
-The tables all still work up until this date, so I'd name this a successful and interesting project.
+The tables all still work up until this date, so I'd name this a successful project.
 
 For more info and other similar projects, have a look at [beyond.io](http://beyond.io).
 
