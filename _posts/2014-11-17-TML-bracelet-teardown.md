@@ -49,7 +49,7 @@ On the back of the bracelet we can clearly see some markings: the bracelet is a 
 
 [![Tomorrowland bracelet](/images/2014-11-17-TML-bracelet-teardown-10.jpg)](/images/2014-11-17-TML-bracelet-teardown-10.jpg)
 
-At first glance it seems my guess about the bracelet having 2 radios on-board seems to be correct. The PCB inside the bracelet is composed of a central hard FR4 circular board. Two pieces of flex PCB, containing antennas, LEDs and the button, are soldered on both sides to the main board. It's interesting to see that they used separate flex parts and soldered / glued them to the main board as apposed to a complete [rigid-flex solution](http://www.candorind.com/assets/img/Flex-RigidMax800px500pxl.jpg) where the flex part is just a layer of the FR4 PCB. I guess the extra labor cost was cheaper than the manufacturing price of the more complicated PCB.
+The PCB inside the bracelet is composed of a central hard FR4 circular board. Two pieces of flex PCB, containing antennas, LEDs and the button, are soldered on both sides to the main board. It's interesting to see that they used separate flex parts and soldered / glued them to the main board as apposed to a complete [rigid-flex solution](http://www.candorind.com/assets/img/Flex-RigidMax800px500pxl.jpg) where the flex part is just a layer of the FR4 PCB. I guess the extra labor cost was cheaper than the manufacturing price of the more complicated PCB.
 
 [![Tomorrowland bracelet](/images/2014-11-17-TML-bracelet-teardown-9.jpg)](/images/2014-11-17-TML-bracelet-teardown-9.jpg)
 
