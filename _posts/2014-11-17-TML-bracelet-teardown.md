@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tomorrowland bracelet teardown
+title: Tomorrowland bracelet teardown (Updated)
 tags:
 - TML2014
 - wearable
@@ -39,7 +39,7 @@ Yet another function of the bracelet, and maybe one that was less known to its u
 
 I also heard that the bracelets could have the capability of being linked to your credit card, so it can be used as an electronic purse at the bars and food stands on the festival site.
 
-All these different functions and capabilities got me wondering about what makes these bracelets tick (pun intended). Since the RFID function for entrance control and payment clearly needs a short range wireless radio and the LEDs and user tracking a long range radio, there must be at least 2 radios inside the bracelet. And of course 2 corresponding antennas. The festival lasted about 2 times 3 days, so battery might become a concern, especially if the LED function is being used often. And how does the exchanging of Facebook contacts work? Is there any storage on the bracelet to store IDs? All these functions seemed possible, but could become expensive (hardware-cost wise) and bulky. The ticket price for Tomorrowland isn't cheap (about €230), but I presume they still needed a cheap, mass produced piece of electronics.
+All these different functions and capabilities got me wondering about what makes these bracelets tick (pun intended). Since the RFID function for entrance control and payment clearly needs a short range wireless radio and the LEDs and user tracking a long range radio, there must be at least 2 radios inside the bracelet. And of course 2 corresponding antennas. The festival lasted about 2 times 3 days, so battery might become a concern, especially if the LED function is being used often. And how does the exchanging of Facebook contacts work? Is there any storage on the bracelet to store IDs? All these functions seemed possible, but could become expensive (hardware-cost wise) and bulky. The ticket price for Tomorrowland isn't cheap (about 230€), but I presume they still needed a cheap, mass produced piece of electronics.
 
 Lets have a look what's inside!
 
@@ -57,7 +57,7 @@ On the main PCB we can find 3 chips, a crystal/oscillator and some resistors, ca
 
 *	The main processor is the Silicon Labs [SI1063-A-GM](http://www.silabs.com/Support%20Documents/TechnicalDocs/Si106x-8x.pdf), which is a pretty capable 8051 based [SoC](http://en.wikipedia.org/wiki/System_on_a_chip) with a sub-Ghz transceiver (here tuned to 915 MHz). (about $3.3)
 *	The smaller UFDFPN8 package to the left with the markings '404E 8330' seems to be connected to the 13.56 MHz antenna. My money is on the [M24SR** series from STMicroelectronics](http://www.st.com/web/en/resource/technical/document/datasheet/DM00087276.pdf) ([Anthony](https://www.facebook.com/notes/anthony-soete/tomorrowland-2014-bracelet-teardown/10152586017265939) seems to agree). It's a simple EEPROM with both an I2C and an NFC interface. (about $0.4)
-*	The SSOP6 package on the top right looks like a generic voltage regulator. It seems that the SI1063 is powered straight from the CR2032, while the NFC chip is powered by an IO pin of the SI1063 (while accessed via I2C, the chip itself can also be powered by and external RFID reader). The two LEDs seem to be powered by the extra voltage regulator (to step down the battery voltage from 3V).
+*	The SSOP6 package on the top right looks <strike>like a generic voltage regulator</strike> a charge pump ([TCA62753FUG](http://www.toshiba.com/taec/components/Datasheet/TCA62753FUG_E_Ver04.pdf), see update). It seems that the SI1063 is powered straight from the CR2032, while the NFC chip is powered by an IO pin of the SI1063 (while accessed via I2C, the chip itself can also be powered by and external RFID reader). The two LEDs seem to be powered by <strike>the extra voltage regulator (to step down the battery voltage from 3V)</strike> the charge pump, to provide the LEDs with a constant 50 mA.
 
 So it seems we were right about the two separate radios (and antennas) on different frequencies. The access control is clearly implemented on the 13.56 MHz NFC chip. The chip comes with a factory pre-burned UID, which is most likely used to identify the user. This UID possibly is the one lasered on the strap.  
 The LEDs are clearly controlled by the Silicon Labs chip and its 915 MHz radio. Once in a while the chip wakes up from sleep mode and scans for an incoming radio packet send from one of the transmitters installed at the different stages. This radio packet holds the color information for the LEDs. Once a first packet is received the sleep duty cycle of the chip is probably altered to less sleeping to make sure for a quick update on a new color.  
@@ -82,5 +82,10 @@ Some more pictures of the complete assembly (click for super-size!):
 
 [![Tomorrowland bracelet](/images/2014-11-17-TML-bracelet-teardown-4.jpg)](/images/2014-11-17-TML-bracelet-teardown-4.jpg)
 
-
-
+> **Update 20 November 2014**: [Frank Lyaruu](https://twitter.com/lyaruu), Senior Technology Architect at Sendrato, recently gave a talk at [ApacheCon Europe](http://events.linuxfoundation.org/events/apachecon-europe) about the Tomorrowland bracelets and the system behind it. He was kind enough to share the slides he used during the presentation, [you can find them here](http://www.slideshare.net/FrankLyaruu/deploying-osgi-on-an-army-of-cubietruckssendrato-powerpoint). It seems that the presentation was a little more focused on the software stacks of the servers running in the receiving antennas, but it still gives us some more info about the wristbands themselves. Looking at the picture of the PCB in the presentation, we see that the 3rd chip is actually a charge pump to drive the LEDs, which indeed makes more sense then a voltage regulator. A quick search brings me to the [Toshiba TCA62753FUG](http://www.toshiba.com/taec/components/Datasheet/TCA62753FUG_E_Ver04.pdf) which can deliver 50mA (VIN=2.7V to 3.0V). It seems I wasn't that far off on the price either, the slides state that their goal was to have a <$10 bracelet.  
+  
+> [![Tomorrowland bracelet](/images/2014-11-17-TML-bracelet-teardown-12.png)](/images/2014-11-17-TML-bracelet-teardown-12.png)  
+  
+> [![Tomorrowland bracelet](/images/2014-11-17-TML-bracelet-teardown-11.jpg)](/images/2014-11-17-TML-bracelet-teardown-11.jpg)  
+  
+> In this image we see the inside one of the antennas placed around the festival site. It looks like it uses a [Cubieboard](http://www.cubietruck.com/collections/frontpage/products/cubietruck-cubieboard3-cortex-a7-dual-core-2gb-ram-8gb-flash-with-wifi-bt-ship-from-germany) with a 900 MHz interface and powered by PoE.
