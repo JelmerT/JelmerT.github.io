@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Flex PCB equals removable test points
-date: '2013-12-11T11:03:00+01:00'
 tags: []
 tumblr_url: http://jelm.be/post/69695737778/flex-pcb-equals-removable-test-points
 comments: True

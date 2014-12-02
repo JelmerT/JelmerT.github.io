@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Train schedule LED panel
-date: '2014-09-14T15:06:00+02:00'
 tags: []
 tumblr_url: http://jelm.be/post/97495903365/train-schedule-led-panel
 comments: True

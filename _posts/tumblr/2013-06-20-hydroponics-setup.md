@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Hydroponics setup
-date: '2013-06-20T12:07:00+02:00'
 tags:
 - ideas
 - diy

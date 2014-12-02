@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Scraping French Girls
-date: '2014-05-13T12:45:00+02:00'
 tags: []
 tumblr_url: http://jelm.be/post/85634190060/scraping-french-girls
 comments: True

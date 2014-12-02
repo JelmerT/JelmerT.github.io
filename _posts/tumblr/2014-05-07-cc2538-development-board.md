@@ -1,7 +1,6 @@
 ---
 layout: post
 title: CC2538 Development Board
-date: '2014-05-07T09:15:00+02:00'
 tags: []
 tumblr_url: http://jelm.be/post/85018928065/cc2538-development-board
 comments: True

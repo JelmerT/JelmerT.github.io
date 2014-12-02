@@ -1,7 +1,6 @@
 ---
 layout: post
 title: MS8910 "smart smd tester" review
-date: '2013-07-16T07:28:00+02:00'
 tags: []
 tumblr_url: http://jelm.be/post/55595613528/ms8910-smart-smd-tester-review
 comments: True

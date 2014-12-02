@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Custom shaped video wall for Sound Of Stereo
-date: '2014-09-14T00:46:00+02:00'
-tags: []
+tags:
+- sound of stereo
+- led wall
 tumblr_url: http://jelm.be/post/97446451245/custom-shaped-video-wall-for-sound-of-stereo
 comments: True
 ---

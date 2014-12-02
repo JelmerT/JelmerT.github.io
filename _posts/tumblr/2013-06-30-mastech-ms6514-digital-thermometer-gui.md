@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Mastech MS6514 Digital Thermometer GUI
-date: '2013-06-30T12:51:00+02:00'
 tags:
 - mastech
 - MS6514
