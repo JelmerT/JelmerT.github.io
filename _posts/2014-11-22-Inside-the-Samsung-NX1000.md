@@ -4,7 +4,6 @@ title: Inside the Samsung NX1000
 tags:
 - Samsung
 - teardown
-comments: True
 ---
 
 I recently had to replace a scratched up back cover of a [Samsung NX1000](http://www.dpreview.com/products/samsung/slrs/samsung_nx1000) camera. I couldn't find a (free) service manual anywhere, so it took me a while to take it apart.

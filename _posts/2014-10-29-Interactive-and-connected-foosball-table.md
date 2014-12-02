@@ -6,7 +6,6 @@ tags:
 - PCB design
 - foosball
 - iot
-comments: True
 ---
 
 

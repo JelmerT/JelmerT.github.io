@@ -7,7 +7,6 @@ tags:
 - IoT
 - NFC
 - teardown
-comments: True
 ---
 I got hold of a Tomorrowland bracelet (thanks [Jef](https://twitter.com/jefseghers)!) and was wondering what makes it tick. Watch me tear it apart and discover all the tech inside.
 
