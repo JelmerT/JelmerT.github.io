@@ -20,7 +20,7 @@ At this year's edition the paper entrance tickets were replaced by electronic br
 
 But the bracelet had a couple more functions. The leather band clearly has 2 RGB LEDs embedded on either side of the *watch face*. These LEDs are remote controlled by the [FOH](http://en.wikipedia.org/wiki/Front_of_House) to light up in sync and with the correct color to match the light show. This is a pretty neat effect, especially when a couple thousand people are waving their hands in the air.
 
-<iframe width="740" height="425" src="//www.youtube.com/embed/eDZaea7OCd0?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="post-videoWrapper"><iframe width="740" height="425" src="//www.youtube.com/embed/eDZaea7OCd0?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 This effect has already been used before and was invented and commercialized by [Xylobands](http://www.xylobands.com/) ([original patent](https://www.google.co.uk/patents/WO2013021209A1)) and backed by Coldplay.
 
@@ -40,9 +40,9 @@ I also heard that the bracelets could have the capability of being linked to you
 
 All these different functions and capabilities got me wondering about what makes these bracelets tick (pun intended). Since the RFID function for entrance control and payment clearly needs a short range wireless radio and the LEDs and user tracking a long range radio, there must be at least 2 radios inside the bracelet. And of course 2 corresponding antennas. The festival lasted about 2 times 3 days, so battery might become a concern, especially if the LED function is being used often. And how does the exchanging of Facebook contacts work? Is there any storage on the bracelet to store IDs? All these functions seemed possible, but could become expensive (hardware-cost wise) and bulky. The ticket price for Tomorrowland isn't cheap (about 230€), but I presume they still needed a cheap, mass produced piece of electronics.
 
-Lets have a look what's inside!
+Let's have a look what's inside!
 
-<iframe src="//player.vimeo.com/video/112217629?title=0&byline=0&portrait=0" width="740" height="425" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="post-videoWrapper"><iframe src="//player.vimeo.com/video/112217629?title=0&byline=0&portrait=0" width="740" height="425" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 On the back of the bracelet we can clearly see some markings: the bracelet is a product of [**Sendrato**](http://sendrato.com/) and the model seems to be **SUM3**, which has to be custom designed for Tomorrowland (the casing anyway).
 
