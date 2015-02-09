@@ -29,7 +29,7 @@ This effect has already been used before and was invented and commercialized by 
 
 Another function of the bracelet was to let visitors easily exchange Facebook details when making new friends at the festival. The bracelet has a button embedded in the strap (underneath the heart). When both guests push this button at the same time, they'll get some feedback via the LEDs and at the end of the festival an email appears in their inbox with the contact details of the other person.
 
-![Tomorrowland bracelet](/images/2014-11-17-TML-bracelet-teardown-7.jpg)
+![Tomorrowland bracelet](/images/2014-11-17-TML-bracelet-teardown-7.png)
 
 Yet another function of the bracelet, and maybe one that was less known to its users, is the ability to track people. The bracelets have a unique ID and a wireless radio embedded by which people can be identified, but also located in a certain area. This is done by setting up different antennas and then triangulating the signal coming from a bracelet or just looking at the [RSSI](http://en.wikipedia.org/wiki/Received_signal_strength_indication) at the different antennas.
 
