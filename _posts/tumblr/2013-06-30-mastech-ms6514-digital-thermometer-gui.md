@@ -8,6 +8,7 @@ tumblr_url: http://jelm.be/post/54268187548/mastech-ms6514-digital-thermometer-g
 comments: True
 ---
 ![MS6514](/images/2013-06-30-mastech-ms6514-digital-thermometer-gui-1.jpg)
+{: style="text-align: center;"}
 
 This was a small in-between project for the [Mastech MS6514](http://www.p-mastech.com/index.php?page=shop.product_details&flypage=flypage.tpl&product_id=150&category_id=18&option=com_virtuemart&Itemid=29&vmcchk=1&Itemid=29) dual channel digital thermometer. (It will probably work for the MS6513 too, maybe with some small changes.)
 
@@ -20,6 +21,7 @@ After some weeks my dad received and tested the meter with some decent ebay [K-
 Out came the hacking skills: the meter seemed to use a simple serial connection over usb to communicate. It clearly used the [CP2102](http://www.silabs.com/products/interface/usbtouart/Pages/usb-to-uart-bridge.aspx). After some reverse engineering I sort of had a clue how the protocol worked. Based on this I made a quick and dirty GUI in Processing that displays all the info found on the display of the device and gives a basic graph of the past measurements.
 
 ![MS6514](/images/2013-06-30-mastech-ms6514-digital-thermometer-gui-2.png)
+{: style="text-align: center;"}
 
 Just select the correct serial port, make sure you long-push the “PC-Link” button and the serial strings should start coming in. There is also some exporting love inside to export measurements to a spreadsheet and graph brewing cycles or just outside and inside temperature (of that turkey in the oven).
 

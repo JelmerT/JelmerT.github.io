@@ -8,6 +8,7 @@ comments: True
 I just received the [Mastech MS8910](http://www.p-mastech.com/index.php?page=shop.product_details&flypage=flypage.tpl&product_id=113&category_id=8&option=com_virtuemart&Itemid=29&vmcchk=1&Itemid=29) smd tester and these are my first impressions.
 
 ![Mastech MS8910](/images/2013-07-16-ms8910-smart-smd-tester-review-1.jpg)
+{: style="text-align: center;"}
 
 I got it from [Aliexpress](http://www.aliexpress.com/item/FREE-shipping-High-quality-Smart-SMD-Tester-MS8910-3000-counts-LCD-display-Auto-Scanning-Auto-Ranging/547792706.html) for 21.56$ including shipping, which seems like a good price for the product.[ Adafruit](https://www.adafruit.com/products/1359) and [Amazon](http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=ms8910) are also carrying it, although for a slightly higher price.
 
