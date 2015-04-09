@@ -2,6 +2,7 @@
 layout: post
 title: Vari-Lite VL2c T-shirt and backgrounds
 thumbnail: /images/2015-04-09-Vari-Lite-VL2c-T-Shirt-thumbnail.png
+description: As promised, here are the desktop and phone backgrounds based on the artwork found in the VL2c patent by Vari-Lite.
 tags:
 - Vari-Lite
 - VL2c

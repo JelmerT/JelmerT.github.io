@@ -1,7 +1,7 @@
 # Site settings
 title: Jelmer Tiete
 email: jelmer@tiete.be
-description: ""
+description: "Blog by Jelmer"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jelmertiete.com" # the base hostname & protocol for your site
 twitter_username: jelmt
