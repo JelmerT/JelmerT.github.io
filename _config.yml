@@ -1,8 +1,7 @@
 # Site settings
 title: Jelmer Tiete
 email: jelmer@tiete.be
-description: > # this means to ignore newlines until "baseurl:"
-  Jelmer Tiete his blog / site.
+description: ""
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jelmertiete.com" # the base hostname & protocol for your site
 twitter_username: jelmt
@@ -26,3 +25,9 @@ defaults:
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       comments: "true"
+
+# Open Graph stuff
+fb_admins:          http://facebook.com/tiete
+fb_appid:           627867070
+avatar:             /images/jelmer-avatar.jpeg
+locale: 			en_US
