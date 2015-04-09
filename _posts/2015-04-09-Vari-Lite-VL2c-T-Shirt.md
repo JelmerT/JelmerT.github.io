@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Vari-Lite VL2c T-shirt and backgrounds
-thumbnail: /images/2015-04-09-Vari-Lite-VL2c-T-Shirt-5.png
+thumbnail: /images/2015-04-09-Vari-Lite-VL2c-T-Shirt-thumbnail.png
 tags:
 - Vari-Lite
 - VL2c
