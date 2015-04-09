@@ -27,7 +27,7 @@ defaults:
       comments: "true"
 
 # Open Graph stuff
-fb_admins:          http://facebook.com/tiete
-fb_appid:           627867070
+fb_admins:          627867070
+fb_appid:           
 avatar:             /images/jelmer-avatar.jpeg
 locale: 			en_US
