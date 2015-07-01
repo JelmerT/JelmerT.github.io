@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Difference between CC2630 and CC2650
+thumbnail: /images/2015-06-30-Difference-between-CC2630-and-CC2650-23-small.jpg
+description: Trying to find the hardware differences in the CC26XX series of TI by decapping some chips.
 tags:
 - TI
 - CC2650
