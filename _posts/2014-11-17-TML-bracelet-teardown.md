@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Tomorrowland bracelet teardown (Updated)
+thumbnail: /images/2014-11-17-TML-bracelet-teardown-5.jpg
+description: Opening up the Tomorrowland bracelet and discovering what makes it tick.
 tags:
 - TML2014
 - wearable

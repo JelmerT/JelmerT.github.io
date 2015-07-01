@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Inside the Samsung NX1000
+thumbnail: /images/2014-11-22-Inside-the-Samsung-NX1000-1-small.jpg
+description: Inside the Samsung NX1000
 tags:
 - Samsung
 - teardown

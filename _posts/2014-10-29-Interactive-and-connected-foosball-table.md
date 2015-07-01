@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Interactive and connected foosball table
+thumbnail: /images/2014-10-29-Interactive-and-connected-foosball-table-1.jpg
+description: Writeup of an interactive and connected foosball table.
 tags:
 - beyond.io
 - PCB design
