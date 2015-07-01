@@ -22,6 +22,12 @@ Only one way to find out!
 
 I sampled both the CC2630 and CC2650 (Thanks TI!), decapped both chips and compared the dies.
 
+[![CC2630 vs CC2650](/images/2015-06-30-Difference-between-CC2630-and-CC2650-9-small.png)](/images/2015-06-30-Difference-between-CC2630-and-CC2650-9-big.png)
+
+Overview of the CC26XX series by Texas Instruments
+
+<br>
+
 How to decap ICs:
 
 I like to use fuming nitric acid ([HNO<sub>3</sub>](https://en.wikipedia.org/wiki/Nitric_acid#Fuming_nitric_acid)), the process goes pretty quick and the die comes out nice and clean, ready for the microscope.
