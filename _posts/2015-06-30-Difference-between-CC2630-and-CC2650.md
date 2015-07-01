@@ -26,7 +26,8 @@ How to decap ICs:
 
 I like to use fuming nitric acid ([HNO<sub>3</sub>](https://en.wikipedia.org/wiki/Nitric_acid#Fuming_nitric_acid)), the process goes pretty quick and the die comes out nice and clean, ready for the microscope.
 
-**DISCLAMER: HNO<sub>3</sub> is extremely dangerous. Like, really, dude.  
+**DISCLAMER: HNO<sub>3</sub> is extremely dangerous.  
+Like, really, dude.  
 Only replicate this if you know what you're doing and have the right tools to handle highly corrosive acids and chemicals. This stuff will decompose your skin and flesh. Always wear gloves, eye protection, lab coat and use a fume hood.**
 
 If you're not trying to save any of the bonding wires in the chip, the process is pretty easy. Just take some nitric acid, throw the chip in there. The acid will start reacting with the packaging and you'll see it bubble, dissolve and delaminate. To make the process go a little faster you can add some heat to the reaction by putting the whole thing on a hot plate. Make sure you keep an eye on the die and rinse it off with acetone in time to make sure the acid doesn't damage the die itself.  
@@ -38,7 +39,7 @@ Gather all your tools and some (sampled) chips in the fume hood.
 
 [![CC2630 vs CC2650](/images/2015-06-30-Difference-between-CC2630-and-CC2650-1-small.jpg)](/images/2015-06-30-Difference-between-CC2630-and-CC2650-1-big.jpg)
 
-Fuming HNO<sub>3</sub> is not the easiest to get if you're not a chemistry or university lab. Depending where you live of course.
+Fuming HNO<sub>3</sub> is not the easiest to get if you're not a chemistry- or university lab. Depending on where you live of course.
 
 [![CC2630 vs CC2650](/images/2015-06-30-Difference-between-CC2630-and-CC2650-3-small.jpg)](/images/2015-06-30-Difference-between-CC2630-and-CC2650-3-big.jpg)
 
