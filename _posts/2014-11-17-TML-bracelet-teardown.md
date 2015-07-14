@@ -12,7 +12,7 @@ tags:
 ---
 I got hold of a Tomorrowland bracelet (thanks [Jef](https://twitter.com/jefseghers)!) and was wondering what makes it tick. Watch me tear it apart and discover all the tech inside.
 
-[![Tomorrowland bracelet](/images/2014-11-17-TML-bracelet-teardown-5.jpg)](/images/2014-11-17-TML-bracelet-teardown-5.jpg)
+[![Tomorrowland bracelet](/images/2014-11-17-TML-bracelet-teardown-5-small.jpg)](/images/2014-11-17-TML-bracelet-teardown-5-big.jpg)
 
 <!--more-->
 
