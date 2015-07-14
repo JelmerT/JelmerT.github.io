@@ -95,12 +95,12 @@ The flight-case has different levels, with in each level a different letter and 
 
 After all the hardware was done and working came the next step: programming the actual one hour long show. 
 
-![SoS Led Wall 17](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-17.jpg)
+![SoS Led Wall 18](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-18.jpg)
 
 We spent a couple of weekends repeating every song in the live set over and over, and tweaking every cue until it was just right.
 The control setup looked something like this:
 
-![SoS Led Wall 18](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-18.jpg)
+![SoS Led Wall 17](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-17.jpg)
 
 Yes, that is probably the worst schematic I’ve ever drawn, but it got the message across. (to the house light techs and stage hands)
 On stage we had the three letters with each their dedicated controller, these were connected to a gigabit switch with UTP. There was also an Art-Net to DMX converter connected to the same switch. One single UTP cable runs all the way to the FOH where I had the GrandMA2 and the Madrix server running on a Macbook Pro (running windows :( ). Both were connected to the FOH-switch. From the MIDI output of the Dj’s laptop (the one that actually plays the music) I had an extra twisted pair all the way to the GrandMA2.
