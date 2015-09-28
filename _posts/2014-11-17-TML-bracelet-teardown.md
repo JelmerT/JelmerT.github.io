@@ -91,4 +91,4 @@ Some more pictures of the complete assembly (click for super-size!):
 > [![Tomorrowland bracelet](/images/2014-11-17-TML-bracelet-teardown-11.jpg)](/images/2014-11-17-TML-bracelet-teardown-11.jpg)  
 ([source](http://www.slideshare.net/FrankLyaruu/deploying-osgi-on-an-army-of-cubietruckssendrato-powerpoint))  
   
-> In this image we see the inside one of the antennas placed around the festival site. It looks like it uses a [Cubieboard](http://www.cubietruck.com/collections/frontpage/products/cubietruck-cubieboard3-cortex-a7-dual-core-2gb-ram-8gb-flash-with-wifi-bt-ship-from-germany) with a 900 MHz interface and powered by PoE.
+> In this image we see the inside of one of the antennas placed around the festival site. It looks like it's based on a [Cubieboard](http://www.cubietruck.com/collections/frontpage/products/cubietruck-cubieboard3-cortex-a7-dual-core-2gb-ram-8gb-flash-with-wifi-bt-ship-from-germany) connected to a 900 MHz interface and is powered by PoE.
