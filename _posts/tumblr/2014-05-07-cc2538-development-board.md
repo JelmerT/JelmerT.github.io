@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CC2538 Development Board
+title: CC2538 Development Board (Updated)
 tags: []
 tumblr_url: http://jelm.be/post/85018928065/cc2538-development-board
 comments: True
@@ -40,3 +40,5 @@ I didn't include any sensors or actuators on the dev-board yet. The idea is that
 {: style="text-align: center;"}
 
 The first versions I soldered up seem to work perfectly, if I get around to it I'll maybe design a second version with some minor improvements. I have a couple extra blank PCB’s left, if you're interested, let me know!
+
+> **Update 29 September 2015**: The design files for this development board are now available! Have a look at [this follow up post](/2015/09/29/CC2538-Dev-Board-Design-Files/).
