@@ -27,6 +27,8 @@ defaults:
       comments: "true"
 
 # Open Graph stuff
+twitter_site:		@jelmt
+twitter_creator:	@jelmt
 fb_admins:          627867070
 fb_appid:           
 avatar:             /images/jelmer-avatar.jpeg
