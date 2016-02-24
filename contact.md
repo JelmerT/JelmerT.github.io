@@ -5,7 +5,7 @@ permalink: /contact/
 ---
 
 ## Availability
-&nbsp;&nbsp;&nbsp;&nbsp;I'm available end 2015!
+&nbsp;&nbsp;&nbsp;&nbsp;I'm available!
 
 ## Networking
 &nbsp;&nbsp;&nbsp;&nbsp;If you're in NYC, Las Vegas or Brussels, just contact me. Let's grab a beer or some coffee.
