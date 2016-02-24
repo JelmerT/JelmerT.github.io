@@ -12,7 +12,7 @@ markdown: kramdown
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+# relative_permalinks: true #unsupported in new jekyll on github
 
 # For previews in blog roll
 excerpt_separator: <!--more-->
