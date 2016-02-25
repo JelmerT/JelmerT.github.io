@@ -11,7 +11,7 @@ tags:
 ---
 
 
-Around October 2013 I helped out [beyond.io](http://beyond.io) with their interactive and connected foosball-table project.
+Around October 2013 I helped out [beyond.io](http://www.beyond.io) with their interactive and connected foosball-table project.
 
 
 <div class="post-videoWrapper"><iframe src="//player.vimeo.com/video/76803848?title=0&byline=0&portrait=0" width="740" height="425" frameborder="0" title="Urban Crafts Kicker" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
