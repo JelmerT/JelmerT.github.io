@@ -73,11 +73,11 @@ The metal on the chip will start gently bubbling and dissolving while the rest o
 
 The HNO<sub>3</sub> turns greener the further the reaction goes.
 
-<div class="post-videoWrapper"><iframe src="//player.vimeo.com/video/132253489?title=0&byline=0&portrait=0" width="740" height="425" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="post-videoWrapper"><iframe src="https//player.vimeo.com/video/132253489?title=0&byline=0&portrait=0" width="740" height="425" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 By gently heating up the HNO<sub>3</sub> you can make the reaction go slightly faster.
 
-<div class="post-videoWrapper"><iframe src="//player.vimeo.com/video/132253490?title=0&byline=0&portrait=0" width="740" height="425" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="post-videoWrapper"><iframe src="https//player.vimeo.com/video/132253490?title=0&byline=0&portrait=0" width="740" height="425" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 The packaging will start to delaminate and the bare die will become visible. With some practice you can get the chip out just before the bonding wires dissolve.
 

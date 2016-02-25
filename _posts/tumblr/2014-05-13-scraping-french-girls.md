@@ -29,15 +29,15 @@ After setting up Charles somewhat like [this](http://blog.cloudfour.com/using-ch
 
 The first thing you notice is the heavy tracking in the app, with every move or touch you do in the app, there are at least 5 requests send to different trackers. I'm not sure if this is common in most (iOS) apps, but I'm sure they had their reasons to include this many.
 
-At first glance it seems they're using an [Amazonaws](http://en.wikipedia.org/wiki/Amazon_Web_Services) store to store their data (the pictures) and they're also making calls to `api-1-1.frenchgirlsapp.com`. After adding these two domains to the SSL certificates option of the Charles proxy, we can have a closer look at the actual calls being made.
+At first glance it seems they're using an [Amazonaws](https://en.wikipedia.org/wiki/Amazon_Web_Services) store to store their data (the pictures) and they're also making calls to `api-1-1.frenchgirlsapp.com`. After adding these two domains to the SSL certificates option of the Charles proxy, we can have a closer look at the actual calls being made.
 
 ![French Girls](/images/2014-05-13-scraping-french-girls-4.png)
 
-If we look at the GET request, being made during a simple refresh of the picture feed, to `api-1-1.frenchgirlsapp.com`, the path looks like this:  `https://api-1-1.frenchgirlsapp.com/feed/recent/1399820113508/24`. The ‘feed' and ‘recent' are pretty self explanatory, the long number looks like [unix time](http://en.wikipedia.org/wiki/Unix_time). If we look at the JSON response, things become a little clearer.
+If we look at the GET request, being made during a simple refresh of the picture feed, to `api-1-1.frenchgirlsapp.com`, the path looks like this:  `https://api-1-1.frenchgirlsapp.com/feed/recent/1399820113508/24`. The ‘feed' and ‘recent' are pretty self explanatory, the long number looks like [unix time](https://en.wikipedia.org/wiki/Unix_time). If we look at the JSON response, things become a little clearer.
 
 ![French Girls](/images/2014-05-13-scraping-french-girls-5.png)
 
-We get 24 objects back from the server that each hold the info for a specific picture and it's corresponding drawings. There is also a ‘last_evaluated_date' send, which holds the same date as the last drawing of the last picture in the response. Now it starts to make more sense why there was a unix timestamp send with the request. To make the [infinite scroll](http://en.wiktionary.org/wiki/infinite_scroll) in the app work, the first request includes the current timestamp, and the amount of pictures to return (24). The server sends the pictures back and the timestamp of the last picture. When the user reaches the bottom of the list, a new request is sent, but this time containing the timestamp of the last picture currently being displayed instead of the current time. This way the server can answer with all the next pictures in the list / in time.
+We get 24 objects back from the server that each hold the info for a specific picture and it's corresponding drawings. There is also a ‘last_evaluated_date' send, which holds the same date as the last drawing of the last picture in the response. Now it starts to make more sense why there was a unix timestamp send with the request. To make the [infinite scroll](https://en.wiktionary.org/wiki/infinite_scroll) in the app work, the first request includes the current timestamp, and the amount of pictures to return (24). The server sends the pictures back and the timestamp of the last picture. When the user reaches the bottom of the list, a new request is sent, but this time containing the timestamp of the last picture currently being displayed instead of the current time. This way the server can answer with all the next pictures in the list / in time.
 
 ![French Girls](/images/2014-05-13-scraping-french-girls-6.png)
 
@@ -51,7 +51,7 @@ The folder structure on the amazonaws server seems to be `/photo/device_id/times
 
 This id seems to be pushed to the api server every time the app is started with a post request to `/push/register` which holds the id and a push_token.
 
-It seems that with all this information we could easily make a web version of the French Girls app. I need to train my [node.js](http://nodejs.org/) skills, so let's try to make a simple request to the api-server with node and see if we can extract the selfie locations from the answer.
+It seems that with all this information we could easily make a web version of the French Girls app. I need to train my [node.js](https://nodejs.org/en/) skills, so let's try to make a simple request to the api-server with node and see if we can extract the selfie locations from the answer.
 
 <script src="https://gist.github.com/JelmerT/b1ff2b8e4f2b8575956a/a61c49e286f25b213f1c3465e83980beba7d64a0.js"></script>
 
@@ -78,7 +78,7 @@ In this code-snipet we created a webserver on port 8888 that serves our ‘index
 ![French Girls](/images/2014-05-13-scraping-french-girls-9.png)
 
 A Selfies Wall! And you can see the drawings when you mouse-over.
-Right now we make a single request for 24 selfies (same amount as the app makes), and then our server serves the links to those pictures (stored on the French Girls amazonaws) in a html form to the requesting browser. Lets make our node script make multiple requests to the api server so we can serve an up to date html file to our users. We're basically [scraping](http://en.wikipedia.org/wiki/Web_scraping) the French Girls api server. We can use the very convenient [node-wsscraper](https://github.com/davej/node-wsscraper) for this.
+Right now we make a single request for 24 selfies (same amount as the app makes), and then our server serves the links to those pictures (stored on the French Girls amazonaws) in a html form to the requesting browser. Lets make our node script make multiple requests to the api server so we can serve an up to date html file to our users. We're basically [scraping](https://en.wikipedia.org/wiki/Web_scraping) the French Girls api server. We can use the very convenient [node-wsscraper](https://github.com/davej/node-wsscraper) for this.
 
 <script src="https://gist.github.com/JelmerT/b1ff2b8e4f2b8575956a/e525afd350d93330b74bed4cbace6f3098f0b25a.js"></script>
 

@@ -16,7 +16,7 @@ This was a small in-between project for the [Mastech MS6514](http://www.p-mastec
 
 My Dad needed an easy hand held thermometer for cooking and brewing that can also do some basic logging. The MS6514 seemed like a good candidate since it had 2 channels and looked quite sturdy for a (fairly) cheap Chinese build device. After looking for the best price we ordered one from [Goodluckbuy](http://www.goodluckbuy.com/) (worst online shop name ever btw).
 
-After some weeks my dad received and tested the meter with some decent ebay [K-type thermocouples](http://en.wikipedia.org/wiki/Thermocouple). The meter seemed to work pretty well, but the logging was kind of a mystery feature. The meter has a usb port and came with some software on one of those [tiny half sized cd's](https://en.wikipedia.org/wiki/Mini_CD) that no recent laptop can actually read..
+After some weeks my dad received and tested the meter with some decent ebay [K-type thermocouples](https://en.wikipedia.org/wiki/Thermocouple). The meter seemed to work pretty well, but the logging was kind of a mystery feature. The meter has a usb port and came with some software on one of those [tiny half sized cd's](https://en.wikipedia.org/wiki/Mini_CD) that no recent laptop can actually read..
 
 Out came the hacking skills: the meter seemed to use a simple serial connection over usb to communicate. It clearly used the [CP2102](http://www.silabs.com/products/interface/usbtouart/Pages/usb-to-uart-bridge.aspx). After some reverse engineering I sort of had a clue how the protocol worked. Based on this I made a quick and dirty GUI in Processing that displays all the info found on the display of the device and gives a basic graph of the past measurements.
 

@@ -24,7 +24,7 @@ The basic set-up of the show consisted of: 2 dj’s, about 10 moving heads, so
 Depending on the venue this set-up was of course accompanied by the local house lights or expanded with some more movers and blinders.
 The teaser from the live set gives a pretty good impression of what the set-up looked like.
 
-<div class="post-videoWrapper"><iframe width="740" height="425" src="//www.youtube.com/embed/BiYMv5KJt1g?rel=0" frameborder="0" allowfullscreen></iframe></div>
+<div class="post-videoWrapper"><iframe width="740" height="425" src="https://www.youtube.com/embed/BiYMv5KJt1g?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 Programming all the moving lights, blinders and strobes was fairly easy, getting a custom LED wall in the shape of the SOS logo, not so much.
 We played with the idea of integrating LEDs into the show to give it an extra dimension, but soon noticed that having a couple DMX controlled LED strips wasn’t going to cut it. The idea spun out of control and we ended up with plans for 3 individual 2 meter wide CNC’ed frames with about a thousand individually controllable RGB LEDs mounted on them in the shape of the logo for the tour.
@@ -37,7 +37,7 @@ After drawing up all the plans and calculating all the constraints (Can we make 
 
 ![SoS Led Wall 5](/images/2014-09-14-custom-shaped-video-wall-for-sound-of-stereo-5.jpg)
 
-<div class="post-videoWrapper"><iframe src="//player.vimeo.com/video/106084085?title=0&byline=0&portrait=0" width="740" height="425" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="post-videoWrapper"><iframe src="https://player.vimeo.com/video/106084085?title=0&byline=0&portrait=0" width="740" height="425" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 For the LEDs themselves we needed individually controllable LED strips that we could easily cut to the correct size. We also needed full control of the exact RGB value for every LED, preferably over DMX, since we wanted to be able to program them together with all the other lighting effects. Sending an actual video signal, in some way, to the strips was also an option, but would become pretty complicated when doing the mapping in the video server.
 
@@ -59,7 +59,7 @@ An mbed seemed like a perfect fit, since it has on board ethernet and is plenty 
 
 After ordering some mbeds, I ported the Adafruit Arduino library for the LDP8806 to the mbed (Library here). This was of course only the first step. The hardest part was of course to get the existing Art-Net library to receive Art-Net packets and correctly map the DMX content to the correct LEDs.
 
-<div class="post-videoWrapper"><iframe src="//player.vimeo.com/video/106084086?title=0&byline=0&portrait=0" width="740" height="425" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="post-videoWrapper"><iframe src="https://player.vimeo.com/video/106084086?title=0&byline=0&portrait=0" width="740" height="425" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 After a couple of late nights with wireshark by my side and way too many leds burning out my retinas every time I’d send the wrong packet, I got 3 separate controllers finished. Each letter of the logo was to get its own dedicated controller.
 
@@ -125,14 +125,14 @@ Big thank you to Vincent, Jochen and everyone else making the tour a success!
 
 Some more movies of the end result:
 
-<div class="post-videoWrapper"><iframe src="//player.vimeo.com/video/106083887?title=0&byline=0&portrait=0" width="740" height="425" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="post-videoWrapper"><iframe src="https://player.vimeo.com/video/106083887?title=0&byline=0&portrait=0" width="740" height="425" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
-<div class="post-videoWrapper"><iframe width="740" height="425" src="//www.youtube.com/embed/KsM0xAQnS98?rel=0" frameborder="0" allowfullscreen></iframe></div>
+<div class="post-videoWrapper"><iframe width="740" height="425" src="https://www.youtube.com/embed/KsM0xAQnS98?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
-<div class="post-videoWrapper"><iframe width="740" height="425" src="//www.youtube.com/embed/kwjGloyleP0?rel=0" frameborder="0" allowfullscreen></iframe></div>
+<div class="post-videoWrapper"><iframe width="740" height="425" src="https://www.youtube.com/embed/kwjGloyleP0?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
-<div class="post-videoWrapper"><iframe src="//player.vimeo.com/video/106082218?title=0&byline=0&portrait=0" width="740" height="425" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="post-videoWrapper"><iframe src="https://player.vimeo.com/video/106082218?title=0&byline=0&portrait=0" width="740" height="425" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
-<div class="post-videoWrapper"><iframe src="//player.vimeo.com/video/106082468?title=0&byline=0&portrait=0" width="740" height="425" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="post-videoWrapper"><iframe src="https://player.vimeo.com/video/106082468?title=0&byline=0&portrait=0" width="740" height="425" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
-<div class="post-videoWrapper"><iframe src="//player.vimeo.com/video/106082469?title=0&byline=0&portrait=0" width="740" height="425" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="post-videoWrapper"><iframe src="https://player.vimeo.com/video/106082469?title=0&byline=0&portrait=0" width="740" height="425" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>

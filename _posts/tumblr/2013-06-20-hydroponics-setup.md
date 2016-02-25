@@ -10,7 +10,7 @@ comments: True
 ---
 ![Hydroponics setup](/images/2013-06-20-hydroponics-setup-1.jpg)
 
-[Hydroponics](http://en.wikipedia.org/wiki/Hydroponics) setup idea.
+[Hydroponics](https://en.wikipedia.org/wiki/Hydroponics) setup idea.
 
 <!--more-->
 
