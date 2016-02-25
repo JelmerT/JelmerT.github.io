@@ -29,7 +29,7 @@ Click your preferred version to download the full size background.
 
 And if you're using this background on some nice piece of kit or during a show, send me a picture! I'll add them here ;)  
 
-[There are still shirts available of course!](http://teespring.com/varilite_vl2c)
+[There are still shirts available of course!](https://teespring.com/varilite_vl2c)
 
-[![VL2c T-shirt](/images/2015-04-09-Vari-Lite-VL2c-T-Shirt-6.jpg)](http://teespring.com/varilite_vl2c)
+[![VL2c T-shirt](/images/2015-04-09-Vari-Lite-VL2c-T-Shirt-6.jpg)](https://teespring.com/varilite_vl2c)
 {: style="text-align: center;"}

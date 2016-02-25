@@ -14,7 +14,7 @@ tags:
 Around October 2013 I helped out [beyond.io](http://www.beyond.io) with their interactive and connected foosball-table project.
 
 
-<div class="post-videoWrapper"><iframe src="//player.vimeo.com/video/76803848?title=0&byline=0&portrait=0" width="740" height="425" frameborder="0" title="Urban Crafts Kicker" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="post-videoWrapper"><iframe src="https://player.vimeo.com/video/76803848?title=0&byline=0&portrait=0" width="740" height="425" frameborder="0" title="Urban Crafts Kicker" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 <!--more-->
 
@@ -40,7 +40,7 @@ The Atmel based controller handles all the real-time inputs and outputs, like go
 
 All boards were populated with our, sometimes somewhat picky, [TM220A](http://www.neodentech.com/bbx/996360-996360.html?id=26798&pid=761184).
 
-<div class="post-videoWrapper"><iframe src="//player.vimeo.com/video/74738858?title=0&byline=0&portrait=0" width="740" height="425" frameborder="0" title="Urban Crafts Kicker" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="post-videoWrapper"><iframe src="https://player.vimeo.com/video/74738858?title=0&byline=0&portrait=0" width="740" height="425" frameborder="0" title="Urban Crafts Kicker" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 <br />
 
@@ -54,6 +54,6 @@ Once all the back-end code was working, all tables were deployed to their indivi
 
 The tables all still work up until this date, so I'd name this a successful project.
 
-For more info and other similar projects, have a look at [beyond.io](http://beyond.io).
+For more info and other similar projects, have a look at [beyond.io](http://www.beyond.io).
 
 <!-- Client: [urbancrafts.tv](http://urbancrafts.tv) (PALM) which is a concept of [trendwolves.com](http://trendwolves.com) -->
