@@ -244,7 +244,7 @@ Dumping the strings in the `ipcamn` process:
 
 Ipcamn seems to be dealing with all the rest of what makes the camera and its services run.
 
-At this point we have a good idea on what services the camera connects to, and what ports are opens. We could go further and take apart the `ipcamn` executable. But with a telnet login of `root` and `123456` , I kind of don't want to know what's in there.
+At this point we have a good idea on what services the camera connects to, and what ports it opens. We could go further and take apart the `ipcamn` executable. But with a telnet login of `root` and `123456` , I kind of don't want to know what's in there.
 
 My current solution is to block all traffic going to and from the camera and the outside at router level. And having a video server like [motionEyeOS](https://github.com/ccrisan/motioneyeos/wiki) or [ZoneMinder](https://zoneminder.com/) do the heavy lifting of recording, storing and streaming video.
 
