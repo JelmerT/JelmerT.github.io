@@ -128,7 +128,7 @@ After which the camera pings the router, probably to check if the network is sti
 
 Another DNS request for `checkip.dyndns.org`, another 2 pings to the router, a DNS request for `www.3322.org` with HTTP request `http://www.3322.org/dyndns/getip`. This thing really needs to figure out its IP.
 
-A DNS request for `www.ip138.com`, which returns a failure, some retries. And eventually the camera loops while sending ping requests to the router.
+Several DNS request for `www.ip138.com`, which all return failures. And eventually the camera loops while sending ping requests to the router.
 
 So it seems the camera uses 2 outside services located at `oipcam.com` and `apexisalarm.com`. The other requests are for time and external IP (these could leak your IP too of course).
 
