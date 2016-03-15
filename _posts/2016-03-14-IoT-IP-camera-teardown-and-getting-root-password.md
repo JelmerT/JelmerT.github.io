@@ -56,7 +56,7 @@ Next steps will be to try to login to the camera, get a terminal, see what OS it
 
 Let's do a quick port scan of the camera to see what services it runs:
 {% highlight bash %}
-$ nmap 192.168.1.242
+$ nmap [IP]
 
 Starting Nmap 6.40-2 ( http://nmap.org )
 Nmap scan report for [IP]
