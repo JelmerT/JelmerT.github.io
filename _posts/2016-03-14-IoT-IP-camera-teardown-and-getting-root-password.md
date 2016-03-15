@@ -112,9 +112,17 @@ This filter gives you all the packets going in and out of the camera based on th
 
 We can see the camera making a standard DHCP request first, after getting an IP from the router, the camera sends a DNS request for `time.nuri.net` and `checkip.dyndns.org`. The first one is an [NTP](https://en.wikipedia.org/wiki/Network_Time_Protocol) server (somewhere in China), probably used to set the clock of the camera. The second URL is used to get the outward facing IP of the camera via dyndns.org.
 
-Then the camera continues to make a DNS request for `oipcam.com`, and sends the following HTTP request to it: `http://www.oipcam.com/vipddns/upgengxin.asp?username=o9428&userpwd=958&userdomain=o9428.oipcam.com&userport=80&mac=00-00-00-00-00-00` (I changed user and pass here, MAC is all zeroes though). oipcam.com answers with a HTTP 200 OK packet with contents `UP`.
+Then the camera continues to make a DNS request for `oipcam.com`, and sends the following HTTP request to it: 
+{% highlight bash %}
+http://www.oipcam.com/vipddns/upgengxin.asp?username=o9428&userpwd=958&userdomain=o9428.oipcam.com&userport=80&mac=00-00-00-00-00-00
+{% endhighlight %}
+(I changed user and pass here, MAC is all zeroes though). oipcam.com answers with a HTTP 200 OK packet with contents `UP`.
 
-Next DNS request is for `www.apexisalarm.com`, with an HTTP request to `http://www.apexisalarm.com/apns.php?cmd=reg_server&uid=53XHWU68T345HGf571N0` (Again I changed uid). Which returns the following answer: `reg_server !!!!<br>Server device 53XHWU68T345HGf571N0 login.`
+Next DNS request is for `www.apexisalarm.com`, with an HTTP request to
+{% highlight bash %}
+http://www.apexisalarm.com/apns.php?cmd=reg_server&uid=53XHWU68T345HGf571N0
+{% endhighlight %}
+(Again I changed uid). Which returns the following answer: `reg_server !!!!<br>Server device 53XHWU68T345HGf571N0 login.`
 
 After which the camera pings the router, probably to check if the network is still up.
 
