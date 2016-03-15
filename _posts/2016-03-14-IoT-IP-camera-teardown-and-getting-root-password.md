@@ -258,4 +258,4 @@ My current solution is to block all traffic going to and from the camera and the
 
 The ideal solution to this problem would be to compile a custom build of OpenWrt and flash it to the camera. And of course getting the USB webcam and all other I/O devices to work. This way you'd have full control of the camera and all its data. As OpenWRT and DD-WRT can transform shady cheap WiFi routers into a solid, stable piece of networking equipment, a version of these OSes for IP cameras could transform them into a cheap, stable and secure way of doing video surveillance. I call it: CamWrt or OpenCamWrt or OpenCam ... not entirely sure yet. That's for a future post.
 
-If you any more info on any part of this teardown, or noticed some mistakes, don't hesitate to contact me or leave a comment!
+If you want any more info on any part of this teardown, or noticed some mistakes, don't hesitate to contact me or leave a comment!
