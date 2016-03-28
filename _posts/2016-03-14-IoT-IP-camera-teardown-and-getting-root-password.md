@@ -154,7 +154,7 @@ This Ralink chip is pretty capable, and is the heart of some smaller cheap WiFi 
 
 Having a look at [this](http://nixcores.com/img/x1/nixcorex1_header-1.0.png) table, and the documentation for the X1, we should be able to get a serial terminal on RX2 and TX2, which is pin 39 and 40. If we have a look at the camera, those two pins are there on our module, but aren't populated. Looks like a good sign.
 
-After connecting a 3.3V serial USB converter to the module at 5670057600 baud, we're in!
+After connecting a 3.3V serial USB converter to the module at 57600 baud, we're in!
 
 The resulting bootlog:
 
