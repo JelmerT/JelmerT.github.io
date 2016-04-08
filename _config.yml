@@ -7,6 +7,9 @@ url: "https://jelmertiete.com" # the base hostname & protocol for your site
 twitter_username: jelmt
 github_username:  JelmerT
 
+# For https redirect. Do not include protocol, just the domain
+enforce_ssl: jelmertiete.com
+
 # Build settings
 markdown: kramdown
 
