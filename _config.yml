@@ -3,7 +3,7 @@ title: Jelmer Tiete
 email: jelmer@tiete.be
 description: "Blog by Jelmer"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://jelmertiete.com" # the base hostname & protocol for your site
+url: "https://jelmertiete.com" # the base hostname & protocol for your site
 twitter_username: jelmt
 github_username:  JelmerT
 
