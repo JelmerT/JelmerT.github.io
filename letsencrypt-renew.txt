@@ -1,0 +1,5 @@
+Letsencrypt howto on osx:
+
+use this to renew:
+fix for missing path to libs:
+sudo DYLD_LIBRARY_PATH=`brew --prefix`/lib ~/.local/share/letsencrypt/bin/letsencrypt certonly -a manual -d jelmertiete.com --debug

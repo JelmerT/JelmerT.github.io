@@ -14,8 +14,11 @@ enforce_ssl: jelmertiete.com
 markdown: kramdown
 
 # Permalinks
-permalink:        pretty
+permalink: pretty
 # relative_permalinks: true #unsupported in new jekyll on github
+
+#exclude these files when building
+exclude: [README.md, letsencrypt-renew.txt]
 
 # For previews in blog roll
 excerpt_separator: <!--more-->
