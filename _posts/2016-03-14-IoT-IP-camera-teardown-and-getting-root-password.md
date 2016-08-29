@@ -1,6 +1,6 @@
 ---
 layout: post
-title: IoT IP camera teardown and getting root password (updated)
+title: IoT IP camera teardown and getting root password (Updated)
 thumbnail: /images/2016-03-11-IoT-IP-camera-teardown-and-getting-root-password-1.png
 description: Opening up a cheap pan/tilt IP camera, inspecting its IP traffic, hooking up a serial console to the SoC and getting the root password for telnet login.
 tags:
