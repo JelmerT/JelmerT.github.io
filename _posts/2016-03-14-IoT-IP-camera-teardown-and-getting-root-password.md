@@ -256,6 +256,8 @@ At this point we have a good idea on what services the camera connects to, and w
 
 My current solution is to block all traffic going to and from the camera and the outside at router level. And having a video server like [motionEyeOS](https://github.com/ccrisan/motioneyeos/wiki) or [ZoneMinder](https://zoneminder.com/) do the heavy lifting of recording, storing and streaming video.
 
-The ideal solution to this problem would be to compile a custom build of OpenWrt and flash it to the camera. And of course getting the USB webcam and all other I/O devices to work. This way you'd have full control of the camera and all its data. As OpenWRT and DD-WRT can transform shady cheap WiFi routers into a solid, stable piece of networking equipment, a version of these OSes for IP cameras could transform them into a cheap, stable and secure way of doing video surveillance. I call it: CamWrt or OpenCamWrt or OpenCam ... not entirely sure yet. That's for a future post.
+The ideal solution to this problem would be to compile a custom build of OpenWrt and flash it to the camera (Check the update below!!). And of course getting the USB webcam and all other I/O devices to work. This way you'd have full control of the camera and all its data. As OpenWRT and DD-WRT can transform shady cheap WiFi routers into a solid, stable piece of networking equipment, a version of these OSes for IP cameras could transform them into a cheap, stable and secure way of doing video surveillance. I call it: CamWrt or OpenCamWrt or OpenCam ... not entirely sure yet. That's for a future post.
 
 If you want any more info on any part of this teardown, or noticed some mistakes, don't hesitate to contact me or leave a comment!
+
+> **Update 29 August 2016**: [Thomas](https://twitter.com/Tho85) got OpenWRT running on the WC0030A IP camera. You can track [his progress on his blog](https://blog.tho.ms/hacks/2016/08/28/openwrt-on-logilink-wc0030a.html).
