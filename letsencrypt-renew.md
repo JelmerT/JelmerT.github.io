@@ -2,8 +2,8 @@ Letsencrypt howto on osx:
 -------------------------
 
 use this to renew:
-- exec letsencrypt tool (fix for missing path to libs):
-sudo DYLD_LIBRARY_PATH=`brew --prefix`/lib ~/.local/share/letsencrypt/bin/letsencrypt certonly -a manual -d jelmertiete.com --debug
+- exec certbot tool:
+sudo certbot certonly -a manual -d jelmertiete.com --debug
 
 - update "letsencrypt-setup" with new codes when asked
 - push change to gitlab and wait till deployed
